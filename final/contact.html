@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Page of My Danok Discovery</title>
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.jpg" alt="logo">
+            <h1>Danok Discovery</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="history.html">HISTORY</a></li>
+                    <li><a href="place.html">PLACE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                
+                </ul>
+             </nav>  
+        </header>
+         
+        <div id="wrapper">
+            <main>
+                <form action="formhandler.php" method="post">
+                    <fieldset class="contact">
+                        <legend>Contact Information</legend>
+                        <label>Name</label>
+                        <input type="text" name="Full name">
+                        <label>Email</label>
+                        <input type="email" name="email">
+                        <label>Phone number</label>
+                        <input type="number" name="phone number">     
+                    </fieldset>
+                    
+                    <fieldset class="heritage">  
+                        <legend>Heritage Choice</legend>
+                        <label>Places</label>
+                        <ul>
+                        <li><input type="checkbox" name="axum" value="Obelisk_of_Axum">Obelisk_of_Axum</li>
+                        <li><input type="checkbox" name="lalibela" value="Lalibela">Lalibela</li>
+                        <li><input type="checkbox" name="dallol" value="Dallol">Dallol</li>
+                        <li><input type="checkbox" name="simien" value="Simien_Mountains">Simien_Mountains</li>
+                        <li><input type="checkbox" name="harar" value="Harar_Jugol">Harar_Jugol</li>
+                        </ul>
+                    </fieldset>
+
+                    <fieldset class="comments">    
+                        <label>Tell Us About Yourself</label>
+                        <textarea name="comments"></textarea>
+                        <input type="submit" value="Contact Me!!">
+                    </fieldset>
+                </form>
+                
+                </main>
+                <aside>
+                    <h2>Our Contact </h2>
+                <ul class="contact">
+                    <li>Phone Number: <a href="tel:+251919892660">+251919892660</a></li>
+                    <li>Email: <a href="malito:gebremedhindanait8@gmail.com">gebremedhin@gmail.com</a></li>
+                    <li>Fax Number: 251999900026</li>
+                    <li>Address: Sofia Mall 6th floor</li>
+                </ul>
+                </aside>
+        </div>
+        <footer>
+            <ul>
+                <li>Copyright &copy; 2023</li>
+                <li>All Rights Reserved</li>
+                <li>Terms of Use</li>
+                <li><a href="../index.html">Web Design by Danait</a></li>
+                <li><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fcompass.northseattle.edu%2F%7Edgebremedhin%2Fit161%2Ffinal%2Fcontact.html">Valid!!!</a></li>
+            </ul>
+
+        </footer>
+
+    </body>
+</html>

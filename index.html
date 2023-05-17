@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Portal Page</title>
+    <style>
+        body{
+            background-color: rgb(210, 210, 208);
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1{
+            color:rgb(138, 3, 122);
+            text-align: center;
+            border: 5px outset rgb(89, 202, 175);
+            /* margin: 30px 6px 6px 6px; */
+            padding: 7px;
+            text-shadow: 2px 2px 2px rgb(188, 78, 188);
+        }
+        h2{
+            text-indent: 50px;
+            color:rgb(138, 3, 122);
+            text-shadow: 2px 2px 2px rgb(188, 78, 188);
+            
+        }
+        img{
+            /*These makes the image to be on the right side of the page*/
+            float:right;
+            width : 230px;
+            /* height: 350px; */
+            border: 12px double rgb(89, 202, 175) ;
+            padding: 4px;
+            /* margin-left: 10px;
+            margin-right: 5px; */
+        }
+        p{
+            text-indent: 25px;
+            font-size: 20px;
+        }
+        ul{
+            list-style-type: square;
+        }
+        div#wrapper{
+            /* width: 940px; */
+            width:80%;
+            max-width: 1000px;
+            /*to center a box, use the margin property below*/
+            margin: 0 auto 0 auto;
+        }
+        @media only screen and (max-width:600px){
+            img{
+                float:none;
+                width:200px;
+                border: 12px double rgb(89, 202, 175) ;
+                padding: 4px;
+                margin: 0 auto;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+<h1>Danait Gebremedhin's Portal Page </h1>
+<h2>North Seattle College</h2>
+<img src="./images/mypic.jpg" alt="">
+
+<p>
+My name is <strong>Danait Gebremedhin.</strong> I'm 21 years old. I was born and raised in <i>Addis Ababa, Ethiopia.</i> I'm taking an Application Development Associate of Applied Sciences degree in <strong>North Seattle College.</strong> I have been intersted in programming since I was in grade ten. It makes me feel good and help me to see things in a different way. I believe that this field of study is growing and highly demanded. The <b>it161</b> class guides me to have a better understanding about the basics of programming and be creative.  
+</p>
+
+<h2>Intersts</h2>
+
+<p>
+I'm passionate about <em>learning new skills and knowledge,</em> <em>teamwork,</em> and <em>problem-solving.</em> In my leisure time, I like to read books, spend time with my family and friends, watching a movie, and listen to spiritual music. And when I get more time like traveling to a different city. I also enjoy meeting new people, experiencing new culture, and trying different language.
+</p>
+
+<!--This gives a line space between the paragraph and the next headline -->
+<br>
+
+<!--This put a horizontal line -->
+<hr>
+
+<h2>Assignments</h2> 
+
+<!--These are an unordered list which contain links for the other assignments-->
+<ul>
+    <li><a href="index.html">HW 1:Portal</a></li>
+    <li><a href="ruth.html">HW 2:Ruth </a></li>
+    <li><a href="big/big.html">HW 3:Big</a></li>
+    <li><a href="wireframe/wireframe.html">HW 4:Wireframe</a></li>
+    <li><a href="form/contact.html">HW 5:Form</a></li>
+    <li><a href="template/index.html">HW 6:Your Template</a></li>
+    <li><a href="final/index.html">Final Project</a></li>
+    <li><a href="practical_test.html">Practical Test </a></li>
+</ul>
+<hr>
+<a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fcompass.northseattle.edu%2F~dgebremedhin%2Fit161%2F" style="font-size:30px">VALID!!</a>
+</div>
+</body>
+</html>

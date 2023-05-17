@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Homework</title>
+        <link href="css/styles.css" type="text/css" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="wrapper">
+        <header>    
+            <img class="logo" src="images/logo.jpg" alt="logo">      
+            <h1>Our Happy Place</h1>
+        </header>  
+        <main>
+        <form action="formhandler.php" method="post">
+            <fieldset class="contact">
+                <legend>Contact Information</legend>
+                <label>Name</label>
+                <input type="text" name="Full name">
+                <label>Email</label>
+                <input type="email" name="email">
+                <label>Phone number</label>
+                <input type="number" name="phone number">
+
+                <label>Gender</label>
+                <ul>
+                <li><input type="radio" name="gender" value="female">Female</li>
+                <li><input type="radio" name="gender" value="male">Male</li>
+                <li><input type="radio" name="gender" value="other">Other</li>
+                </ul>
+            </fieldset>
+            <fieldset class="dessert">  
+                <legend>Desserts Choice</legend>
+                <label>Desserts</label>
+                <ul>
+                <li><input type="checkbox" name="dessert" value="cheesecake">Cheesecake</li>
+                <li><input type="checkbox" name="dessert" value="maple apple pie">Maple Apple Pie</li>
+                <li><input type="checkbox" name="dessert" value="tiramisu">Tiramisu</li>
+                <li><input type="checkbox" name="dessert" value="chocolate">Chocolate Cake</li>
+                <li><input type="checkbox" name="dessert" value="icecream">Icecream</li>
+                <li><input type="checkbox" name="dessert" value="cinnamon">Cinnamon Roll</li>
+                <li><input type="checkbox" name="dessert" value="banana">Banana Split</li>
+                </ul>
+
+                <label>Size</label>
+                <select>
+                    <option value="size">Choose size</option>
+                    <option value="slice">Slice</option>
+                    <option value="whole">Whole</option>    
+                </select>
+            </fieldset>
+            <fieldset class="comments">    
+                <label>Comments</label>
+                <textarea name="comments"></textarea>
+                <input type="submit" value="Order it!!">
+            </fieldset>
+        </form>
+        </main>
+        <aside>
+            <h2>Have A Dessert </h2>
+            <img class="dessert" src="images/dessert.jpg" alt="Dessert picture">
+            <ul>
+            <li><p>Desserts are the fairy tales of the kitchen a happily ever after to supper.</p></li>
+            <li><p>Life is short eat a dessert first.</p></li>
+            <li><p>Stressed is Desserts spelled backwards</p></li>
+        </ul>
+        </aside>
+        <footer>
+            <ul>
+              <li>Copyright &copy; 2023</li>
+              <li>All Rights Reserved</li>
+              <li>Terms of Use</li>
+              <li><a href="../index.html">Web Design by Danait</a></li>
+              <li><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fcompass.northseattle.edu%2F%7Edgebremedhin%2Fit161%2Fform%2Fcontact.html">Valid!!!</a></li>
+            </ul>
+          </footer>
+    </div>  
+    </body>
+</html>
