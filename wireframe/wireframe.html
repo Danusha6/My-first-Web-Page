@@ -37,6 +37,10 @@
         <li><a href="images/4-Sitemap.png">Sitemap</a></li>
     </ul>
     <br>
-    <a class="valid" href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fcompass.northseattle.edu%2F%7Edgebremedhin%2Fit161%2Fwireframe%2Fwireframe.html">Valid!!</a> 
+    <a id="html-checker" href="#" target="_blank">VALID!!</a>
+    <script>
+        //https://tinyurl.com/dynamic-html-checker
+        document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+    </script>
 </body>
 </html>
