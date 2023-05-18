@@ -95,7 +95,12 @@ I'm passionate about <em>learning new skills and knowledge,</em> <em>teamwork,</
     <li><a href="practical_test.html">Practical Test </a></li>
 </ul>
 <hr>
-<a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fcompass.northseattle.edu%2F~dgebremedhin%2Fit161%2F" style="font-size:30px">VALID!!</a>
+<!-- <a id="html-checker" href="#" target="_blank">Check HTML</a>  -->
+<a id="html-checker" href="#" target="_blank" style="font-size:30px">VALID!!</a>
 </div>
 </body>
+<script>
+    //https://tinyurl.com/dynamic-html-checker
+    document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+</script>
 </html>
